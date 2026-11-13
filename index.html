@@ -1,1 +1,75 @@
-# social-lab
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Lab</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #080d18;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.card {
+  width: 100%;
+  max-width: 390px;
+  background: #141e30;
+  padding: 30px 24px;
+  border-radius: 20px;
+  border: 1px solid #263b59;
+  text-align: center;
+}
+.logo {
+  font-size: 35px;
+  color: #3988ff;
+  font-weight: bold;
+}
+h2 { margin-bottom: 8px; }
+p { color: #aab8ce; line-height: 1.8; }
+button {
+  width: 100%;
+  padding: 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #287cff;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.notice {
+  margin-top: 20px;
+  padding: 12px;
+  background: #1d3048;
+  border-radius: 10px;
+  color: #8dbaff;
+  line-height: 1.7;
+}
+small { color: #73849d; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">SL</div>
+  <h2>Social Lab</h2>
+  <p>مختبر تجريبي للتوعية بالأمن الرقمي</p>
+  <div class="notice">
+    تعرّف على أساليب التوعية بالتصيد
+    الإلكتروني وكيفية حماية حساباتك.
+  </div>
+  <br>
+  <button onclick="alert('تذكّر: لا تدخل بياناتك الشخصية في صفحات مجهولة.')">
+    ابدأ التجربة
+  </button>
+  <br><br>
+  <small>مشروع تعليمي مستقل — لا يجمع بيانات</small>
+</div>
+</body>
+</html>
